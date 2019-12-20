@@ -4,6 +4,7 @@ import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
+
 public class HelloWorldApplication {
 
 	public static void main(String[] args) {
@@ -11,10 +12,9 @@ public class HelloWorldApplication {
 	}
 
 
-	 @RequestMapping("/")
+    @GetMappingpath= "/")
     public String getEmployees() 
     {
-      
       return "Hello World!";
     }
 
