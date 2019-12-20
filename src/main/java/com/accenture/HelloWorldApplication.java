@@ -12,11 +12,9 @@ public class HelloWorldApplication {
 		SpringApplication.run(HelloWorldApplication.class, args);
 	}
 
-
-    @GetMappingpath= "/")
-    public String getEmployees() 
-    {
-      return "Hello World!";
-    }
+	@GetMapping(path = "/")
+	public String getEmployees() {
+		return "Hello World!";
+	}
 
 }
