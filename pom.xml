@@ -39,7 +39,7 @@
             </exclusions>
         </dependency>
     </dependencies>
-    <build>
+    <reporting>
         <plugins>
             <plugin>
                 <groupId>org.springframework.boot</groupId>
@@ -55,5 +55,5 @@
                 </configuration>
             </plugin>
         </plugins>
-    </build>
+    </reporting>
 </project>
